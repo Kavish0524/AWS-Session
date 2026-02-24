@@ -4,7 +4,7 @@
 
 1. Clone this project
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com/Kavish0524/AWS-Session.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
@@ -29,7 +29,7 @@ npm run start
 2. Create an EC2 instance
     - Select an OS image - Ubuntu
     - Create a new key pair & download `.pem` file
-    - Instance type - t2.micro
+    - Instance type - t3.micro
 3. Connecting to the instance using ssh
 ```
 ssh -i instance.pem ubunutu@<IP_ADDRESS>
@@ -48,7 +48,7 @@ sudo apt update
 
 1. Clone this project in the remote VM
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com/Kavish0524/AWS-Session.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
